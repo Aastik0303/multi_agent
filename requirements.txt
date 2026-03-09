@@ -1,0 +1,26 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+fastapi==0.110.0
+uvicorn==0.27.0
+python-multipart==0.0.9
+
+# ── LangChain ─────────────────────────────────────────────────────────────────
+langchain==0.1.12
+langchain-openai==0.1.1          # Used for ChatOpenAI (works with OpenRouter too)
+langchain-community==0.0.28
+
+# ── HuggingFace Embeddings (runs LOCALLY — free, no API key) ─────────────────
+sentence-transformers==2.6.1     # Downloads "all-MiniLM-L6-v2" on first run (~80MB)
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+faiss-cpu==1.7.4
+
+# ── Document Processing ───────────────────────────────────────────────────────
+pypdf==4.1.0
+youtube-transcript-api==0.6.2
+
+# ── Data Analysis ─────────────────────────────────────────────────────────────
+pandas==2.2.1
+numpy==1.26.4
+
+# ── HTTP ──────────────────────────────────────────────────────────────────────
+httpx==0.27.0
