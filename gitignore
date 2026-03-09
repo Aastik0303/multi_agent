@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data & uploads
+charts/
+uploads/
+*.csv
+*.pdf
+
+# Node
+node_modules/
+frontend/dist/
+
+# Misc
+.DS_Store
+.env
+*.log
