@@ -14,7 +14,7 @@ OPENROUTER_API_KEY = "sk-or-v1-17e81ca121c2e042f64e3d204b455f9ba9cc17f78f6c95476
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Model to use — this is a free 120B model via OpenRouter
-OPENROUTER_MODEL = "'openai/gpt-oss-120b:free'"   # reliable free-tier model
+OPENROUTER_MODEL = 'openai/gpt-oss-120b:free'  # reliable free-tier model
 
 # Max tokens for LLM responses
 MAX_TOKENS = 2000
